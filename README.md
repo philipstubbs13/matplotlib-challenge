@@ -10,7 +10,7 @@ Data analysis of an animal study, which was conducted to compare the performance
 
 ##  <a name="background"></a>Background
 
-For this project, I started with 2 csv files. Both of these files can be found [here](./data). One [csv file](./data/Study_results.csv) includes the study results for each mouse that took part in the study. It includes columns for mouse id, timepoint, tumor volume, and metastatic sites.  The other [csv file](./data/Mouse_metadata.csv) includes information about the mice that participated in this study, such as mouse id, drug regimen, sex, age, and weight. For this analysis, I loaded the two csv files into pandas dataframes. I merged these two dataframes based on the mouse id field they share to create a combined dataframe. I used the combined dataframe along with the pandas and matplotlib libraries to help generate the various tables and graphs needed to understand the results.
+For this project, I started with 2 csv files. Both of these files can be found [here](./data). One [csv file](./data/Study_results.csv) includes the study results for each mouse that took part in the study. It includes columns for mouse id, timepoint, tumor volume, and metastatic sites.  The other [csv file](./data/Mouse_metadata.csv) includes metadata information about the mice that participated in this study, such as mouse id, drug regimen, sex, age, and weight. For this analysis, I loaded the two csv files into pandas dataframes. I merged these two dataframes based on the mouse id field they share to create a combined dataframe. I used the combined dataframe along with the pandas and matplotlib libraries to help generate the various tables and graphs needed to understand the results.
 
 ## <a name="insights"></a>Observations and Insights
 
